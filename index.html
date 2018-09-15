@@ -5,13 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Unit-4-Game</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+
     <!-- Added link to the jQuery Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    <script src="assets/javascript/game.js"></script>
 </head>
 <body>
+       
+<div class="container">
+        <div class="row" >
+                <div class="col-sm-4">
+                <h1 id="title">Crystals Collector </h1>
+                </div>
+        </div>
+
+        <div class="row" >
+                <div id="parag" class="col-md-6">
+                <p >You will be given a random number at the start of the game.</p>
+                    
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to you total score.</p>
+            
+                <p>You win the game by matching your total score to ramdom number, you lose the game if your total score goes above the random number.</p>
+                 
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                 
+                <p>Each time when the game starts, the game will change the values of each crystal.</p>
+                <br><br><br>  <br>
+                </div>
+      
+
+        </div>
+
+        <div class="row" >
+                <div id = "newGame" class="col-sm-3">
+                </div>
+                <div id = "winnLoss" class="col-sm-2">
+                    <P>Wins </P>
+                    <p>losses</p>
+                </div>
+        </div>
+      
+        <div class="row" >
+                <div id="crystals" class="col-sm-1">
+                <img class="gems" src="/assets/images/diamond.jpeg" alt="diamond">
+                </div>
+                <div id="crystals" class="col-sm-1">
+                <img class="gems" src="/assets/images/emerald.jpeg" alt="emerald">
+                </div>
+                <div id="crystals" class="col-sm-1">
+                <img class="gems" src="/assets/images/Ruby.jpeg" alt="ruby">
+                </div>
+                <div id="crystals" class="col-sm-1">
+                <img class="gems" src="/assets/images/saphire.jpeg" alt="saphire">
+                </div>
+        </div>
+
+        <div class="row" >
+                <div id="score" class="col-sm-3">
+                    <p>Your total score is:</p>
+                </div>
+        </div>
+
+        <div  class="row" >
+                <div id="GuessedNumber" class="col-sm-3">
+                <p>number</p>
+                </div>
+        </div>
+
+</div>
+
     
 </body>
 </html>

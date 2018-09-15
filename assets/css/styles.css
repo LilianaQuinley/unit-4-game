@@ -1,8 +1,49 @@
-* {
-    background-color: aquamarine
+body {
+    background-image: url("/assets/images/crystalgame.jpg");
     }
+
+.row {
+    margin-bottom: 15px;
+}   
     
-.v-panel-caption {
-    background-color: #157FCC;
-    color: #FFFFFF;
-  }
+#title {
+    background: orangered;
+    color: white;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+
+}
+
+#parag {
+    background: peachpuff;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+#newGame {
+    background: greenyellow;
+    margin-right: 15px;   
+}
+
+#winnLoss {
+    background: aqua;
+
+}
+
+#crystals {
+    margin-right: 10px;
+}
+.gems {
+    width: 70px;
+    height: 70px;  
+}
+
+#score {
+    background: green;
+}
+
+#GuessedNumber {
+    background: green; 
+}
