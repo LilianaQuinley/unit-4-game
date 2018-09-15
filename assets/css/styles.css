@@ -25,6 +25,8 @@ body {
 #newGame {
     background: greenyellow;
     margin-right: 15px;   
+    font-size: 30px;
+    text-align: center;
 }
 
 #winnLoss {
@@ -35,9 +37,10 @@ body {
 #crystals {
     margin-right: 10px;
 }
-.gems {
-    width: 70px;
-    height: 70px;  
+
+img {
+    width: 75px;
+    height: 75px;  
 }
 
 #score {
